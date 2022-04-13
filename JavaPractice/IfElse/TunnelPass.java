@@ -12,7 +12,7 @@ public class TunnelPass {
 		int a=Htunnel[0];
 		int b=Htunnel[1];
 		int c=Htunnel[2];
-		if ((a&b&c)>170) {
+		if ((a>170)&(b>170)&(c>170)) {
 			System.out.println("PASS");
 		}
 		else {
