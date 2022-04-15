@@ -8,7 +8,7 @@ public class MakeTriangle {
 
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
-
+		int a=(n/2)+1;
 		/* 직각 삼각형
 		 * for(int i=1; i<=n;i++) { for(int j=1;j<=i;j++) { System.out.print("*"); }
 		 * System.out.println(""); }
@@ -26,6 +26,11 @@ public class MakeTriangle {
 		 * for ( int i=1; i<=n;i++) { for(int j=1; j<=i; j++) { System.out.print("*"); }
 		 * System.out.println(""); } for (int i=1; i<=n; i++) { for(int j=n-1;j>=i;j--)
 		 * { System.out.print("*"); } System.out.println(""); }
+		 */
+		/* 피라미드 삼각형
+		 * for(int i=1; i<=a;i++) { for(int j=a-1;j>=i;j--) { System.out.print(" "); }
+		 * for(int k=1;k<=2*i-1;k++) { System.out.print("*"); } System.out.println("");
+		 * }
 		 */
 		sc.close();
 	}
