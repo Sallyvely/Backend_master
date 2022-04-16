@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Arr"/>
 	<classpathentry kind="src" path="Loop"/>
 	<classpathentry kind="src" path="InputOutput"/>
 	<classpathentry kind="src" path="IfElse"/>
