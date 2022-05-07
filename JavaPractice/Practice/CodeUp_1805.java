@@ -13,7 +13,7 @@ public class CodeUp_1805 {
 			
 
 		
-		}
+		}fl
 		sc.close();
 
 	}
